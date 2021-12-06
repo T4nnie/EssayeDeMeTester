@@ -1,0 +1,29 @@
+# Created at 2021-12-06T11:10:54.206
+java.lang.NoClassDefFoundError: org/apache/xmlbeans/XmlException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source)
+	at java.lang.Class.privateGetMethodRecursive(Unknown Source)
+	at java.lang.Class.getMethod0(Unknown Source)
+	at java.lang.Class.getMethod(Unknown Source)
+	at org.apache.maven.surefire.api.util.ReflectionUtils.tryGetMethod(ReflectionUtils.java:60)
+	at org.apache.maven.surefire.common.junit3.JUnit3TestChecker.isSuiteOnly(JUnit3TestChecker.java:66)
+	at org.apache.maven.surefire.common.junit3.JUnit3TestChecker.isValidJUnit3Test(JUnit3TestChecker.java:61)
+	at org.apache.maven.surefire.common.junit3.JUnit3TestChecker.accept(JUnit3TestChecker.java:56)
+	at org.apache.maven.surefire.common.junit4.JUnit4TestChecker.accept(JUnit4TestChecker.java:53)
+	at org.apache.maven.surefire.common.junit48.JUnit48TestChecker.accept(JUnit48TestChecker.java:51)
+	at org.apache.maven.surefire.api.util.DefaultScanResult.applyFilter(DefaultScanResult.java:102)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.scanClassPath(JUnitCoreProvider.java:292)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.setTestsToRun(JUnitCoreProvider.java:198)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:132)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 19 more
+
+

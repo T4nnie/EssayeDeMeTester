@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.eql.MyFirstProject.MyFirstSoapTest" time="22.659" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\target\test-classes;C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\target\classes;C:\Users\formation\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\formation\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\bin\soapui-5.4.0.jar;C:\Users\formation\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\formation\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\formation\.m2\repository\net\sf\squirrel-sql\thirdparty-non-maven\com-fifesoft-rsyntaxtextarea\1.0.0\com-fifesoft-rsyntaxtextarea-1.0.0.jar;C:\Users\formation\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\formation\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\formation\.m2\repository\org\wso2\apache\httpcomponents\httpclient\4.3.1.wso2v1\httpclient-4.3.1.wso2v1.jar;C:\Users\formation\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\proxy-vole-20131209.jar;C:\Users\formation\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\formation\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\formation\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\formation\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\formation\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\formation\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\formation\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\formation\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\formation\.m2\repository\org\bouncycastle\bcprov-jdk16\1.46\bcprov-jdk16-1.46.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\out-app-analytics-provider-5.4.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\wsdl4j-1.6.2-fixed.jar;C:\Users\formation\.m2\repository\com\jgoodies\forms\1.2.1\forms-1.2.1.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-core\4.7.3\flex-messaging-core-4.7.3.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-common\4.7.3\flex-messaging-common-4.7.3.jar;C:\Users\formation\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\formation\.m2\repository\org\glassfish\main\javaee-api\javax.jms\3.1.2.2\javax.jms-3.1.2.2.jar;C:\Users\formation\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\formation\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\formation\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\formation\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Installation\Java\jre1.8.0_152\bin"/>
+    <property name="sun.java.command" value="C:\Users\formation\AppData\Local\Temp\surefire7515838470428687056\surefirebooter2245376402375171442.jar C:\Users\formation\AppData\Local\Temp\surefire7515838470428687056 2021-12-06T16-38-07_039-jvmRun1 surefire2027389704604339815tmp surefire_07425629556715590930tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\target\test-classes;C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\target\classes;C:\Users\formation\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\formation\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\bin\soapui-5.4.0.jar;C:\Users\formation\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\formation\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\formation\.m2\repository\net\sf\squirrel-sql\thirdparty-non-maven\com-fifesoft-rsyntaxtextarea\1.0.0\com-fifesoft-rsyntaxtextarea-1.0.0.jar;C:\Users\formation\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\formation\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\formation\.m2\repository\org\wso2\apache\httpcomponents\httpclient\4.3.1.wso2v1\httpclient-4.3.1.wso2v1.jar;C:\Users\formation\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\proxy-vole-20131209.jar;C:\Users\formation\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\formation\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\formation\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\formation\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\formation\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\formation\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\formation\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\formation\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\formation\.m2\repository\org\bouncycastle\bcprov-jdk16\1.46\bcprov-jdk16-1.46.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\out-app-analytics-provider-5.4.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\wsdl4j-1.6.2-fixed.jar;C:\Users\formation\.m2\repository\com\jgoodies\forms\1.2.1\forms-1.2.1.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-core\4.7.3\flex-messaging-core-4.7.3.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-common\4.7.3\flex-messaging-common-4.7.3.jar;C:\Users\formation\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\formation\.m2\repository\org\glassfish\main\javaee-api\javax.jms\3.1.2.2\javax.jms-3.1.2.2.jar;C:\Users\formation\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\formation\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\formation\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\formation\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\formation"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Installation\Java\jre1.8.0_152"/>
+    <property name="basedir" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\formation\AppData\Local\Temp\surefire7515838470428687056\surefirebooter2245376402375171442.jar"/>
+    <property name="sun.boot.class.path" value="C:\Installation\Java\jre1.8.0_152\lib\resources.jar;C:\Installation\Java\jre1.8.0_152\lib\rt.jar;C:\Installation\Java\jre1.8.0_152\lib\sunrsasign.jar;C:\Installation\Java\jre1.8.0_152\lib\jsse.jar;C:\Installation\Java\jre1.8.0_152\lib\jce.jar;C:\Installation\Java\jre1.8.0_152\lib\charsets.jar;C:\Installation\Java\jre1.8.0_152\lib\jfr.jar;C:\Installation\Java\jre1.8.0_152\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
+    <property name="user.name" value="formation"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Installation\Java\jre1.8.0_152\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\formation\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\FORMAT~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="user.dir" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Installation\Java\jre1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Installation/Java/jre1.8.0_152/bin/server;C:/Installation/Java/jre1.8.0_152/bin;C:/Installation/Java/jre1.8.0_152/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\apache-maven-3.6.3\bin;C:\Program Files (x86)\apache-maven-3.6.3\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Installation\wamp\bin\mysql\mysql5.1.36\bin;C:\INSTAL~1\Groovy\GROOVY~1.15\bin;C:\ProgramData\chocolatey\bin;C:\Users\formation\AppData\Local\Microsoft\WindowsApps;;C:\Users\formation\AppData\Local\Programs\Microsoft VS Code\bin;C:\Installation\SquashTA-Toolbox-1.10.0-RELEASE\eclipse-jee-oxygen-R-win32-x86_64;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.152-b16"/>
+    <property name="java.ext.dirs" value="C:\Installation\Java\jre1.8.0_152\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="JunitTest1" classname="org.eql.MyFirstProject.MyFirstSoapTest" time="13.721">
+    <system-out><![CDATA[16:38:08,481 WARN  [SoapUI] Missing folder [C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\ext] for external libraries
+16:38:08,641 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\formation\soapui-settings.xml]
+16:38:10,870 INFO  [PluginManager] Adding plugin from [C:\Users\formation\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+16:38:10,870 INFO  [PluginManager] Adding plugin from [C:\Users\formation\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+16:38:11,594 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+16:38:11,604 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+16:38:11,614 INFO  [PluginManager] Adding plugin from [C:\Users\formation\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+16:38:12,334 WARN  [PluginManager] Could not load plugin from file [C:\Users\formation\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.ready.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(Unknown Source)
+	at java.util.zip.ZipFile.access$200(Unknown Source)
+	at java.util.zip.ZipFile$ZipEntryIterator.hasNext(Unknown Source)
+	at java.util.zip.ZipFile$ZipEntryIterator.hasMoreElements(Unknown Source)
+	at java.util.jar.JarFile$JarEntryIterator.hasNext(Unknown Source)
+	at java.util.jar.JarFile$JarEntryIterator.hasMoreElements(Unknown Source)
+	at org.reflections.vfs.ZipDir$1$1.computeNext(ZipDir.java:30)
+	at org.reflections.vfs.ZipDir$1$1.computeNext(ZipDir.java:26)
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:145)
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:140)
+	at org.reflections.Reflections.scan(Reflections.java:243)
+	at org.reflections.Reflections.scan(Reflections.java:202)
+	at org.reflections.Reflections.<init>(Reflections.java:123)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:106)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 12 more
+16:38:12,334 INFO  [PluginManager] Adding plugin from [C:\Users\formation\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+16:38:12,344 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+16:38:12,354 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+16:38:12,354 INFO  [PluginManager] Adding plugin from [C:\Users\formation\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+16:38:13,214 WARN  [PluginManager] Could not load plugin from file [C:\Users\formation\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.plugins.swaggerhub.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(Unknown Source)
+	at java.util.zip.ZipFile.access$200(Unknown Source)
+	at java.util.zip.ZipFile$ZipEntryIterator.hasNext(Unknown Source)
+	at java.util.zip.ZipFile$ZipEntryIterator.hasMoreElements(Unknown Source)
+	at java.util.jar.JarFile$JarEntryIterator.hasNext(Unknown Source)
+	at java.util.jar.JarFile$JarEntryIterator.hasMoreElements(Unknown Source)
+	at org.reflections.vfs.ZipDir$1$1.computeNext(ZipDir.java:30)
+	at org.reflections.vfs.ZipDir$1$1.computeNext(ZipDir.java:26)
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:145)
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:140)
+	at org.reflections.Reflections.scan(Reflections.java:243)
+	at org.reflections.Reflections.scan(Reflections.java:202)
+	at org.reflections.Reflections.<init>(Reflections.java:123)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:106)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 12 more
+16:38:13,214 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+16:38:13,224 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+16:38:13,224 INFO  [PluginManager] 5 plugins loaded in 2354 ms
+16:38:13,224 INFO  [DefaultSoapUICore] All plugins loaded
+16:38:13,812 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/SquashTA-1.10.0-RELEASE-workspace/MyFirstProject/src/test/ressources/ProjetNOAA.xml]
+16:38:14,114 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:14,114 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:14,732 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:14,742 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:14,782 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:14,792 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:14,802 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:14,802 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:15,275 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:15,275 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:15,285 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:15,285 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:15,295 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:15,295 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:16,007 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:16,007 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:16,007 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:16,718 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:16,728 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:16,728 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:17,368 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:17,368 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:17,368 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:17,368 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:17,379 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:17,379 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:17,915 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:17,915 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:17,925 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:17,925 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:17,935 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:17,935 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:18,461 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:18,461 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:18,461 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:18,461 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:18,481 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:18,481 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:19,100 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:19,100 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:19,100 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:19,110 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:19,120 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:19,120 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:19,644 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:19,644 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:19,654 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:19,654 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:19,664 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:19,664 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:20,175 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:20,175 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:20,175 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:20,175 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:20,185 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:20,185 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:20,669 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:20,669 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:20,675 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:20,675 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:20,685 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:20,685 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:21,333 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:21,333 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:21,342 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:21,352 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:21,363 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:21,363 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:21,994 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:21,994 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:21,994 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/formation/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Installation/SmartBear/SoapUI-5.4.0/lib/slf4j-log4j12-1.6.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+]]></system-err>
+  </testcase>
+  <testcase name="test" classname="org.eql.MyFirstProject.MyFirstSoapTest" time="8.93">
+    <system-out><![CDATA[SoapUI 5.4.0 TestCase Runner
+16:38:22,365 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/SquashTA-1.10.0-RELEASE-workspace/MyFirstProject/src/test/ressources/ProjetNOAA.xml]
+16:38:22,365 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [ndfdXML]
+16:38:22,365 INFO  [SoapUITestCaseRunner] Running Project [ndfdXML], runType = SEQUENTIAL
+16:38:22,369 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+16:38:22,369 INFO  [SoapUITestCaseRunner] running step [LatLonListZipCode - Request 1]
+16:38:22,373 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:22,382 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:22,382 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:22,933 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:22,933 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:22,946 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:22,946 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:38:22,946 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:38:22,946 INFO  [SoapUITestCaseRunner] Assertion [Lati] has status VALID
+16:38:22,946 INFO  [SoapUITestCaseRunner] Assertion [Longi] has status VALID
+16:38:22,946 INFO  [SoapUITestCaseRunner] running step [step 2]
+16:38:22,946 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:22,950 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:22,950 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:23,459 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:23,459 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:23,463 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:23,466 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:38:23,466 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:38:23,466 INFO  [SoapUITestCaseRunner] Assertion [Lat] has status VALID
+16:38:23,466 INFO  [SoapUITestCaseRunner] Assertion [Long] has status VALID
+16:38:23,466 INFO  [SoapUITestCaseRunner] running step [Jump]
+16:38:23,466 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:23,477 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:23,477 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:24,133 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:24,133 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:24,137 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:24,137 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:38:24,137 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:38:24,137 INFO  [SoapUITestCaseRunner] Assertion [Lat] has status VALID
+16:38:24,137 INFO  [SoapUITestCaseRunner] Assertion [Long] has status VALID
+16:38:24,141 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 1767ms, status: FINISHED
+16:38:24,141 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 2]
+16:38:24,141 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+16:38:24,171 INFO  [log] Chargement des propriétés à partir di fichier testprops.txt
+16:38:24,171 INFO  [SoapUITestCaseRunner] running step [Properties]
+16:38:24,171 INFO  [SoapUITestCaseRunner] running step [SOAP Request]
+16:38:24,175 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:24,183 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:24,183 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:25,911 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:25,911 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:25,915 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:25,915 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:38:25,915 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:38:25,915 INFO  [SoapUITestCaseRunner] running step [SOAP Request 2]
+16:38:25,915 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:25,923 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:25,923 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:26,436 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:26,436 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:26,440 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:26,440 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:38:26,440 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:38:26,440 INFO  [SoapUITestCaseRunner] running step [SOAP Request 3]
+16:38:26,440 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:26,444 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:26,444 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:27,083 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:27,083 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:27,085 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:27,085 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:38:27,085 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:38:27,085 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 2], time taken: 2941ms, status: FINISHED
+16:38:27,089 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+16:38:27,089 INFO  [SoapUITestCaseRunner] running step [Properties]
+16:38:27,089 INFO  [SoapUITestCaseRunner] running step [LatLonListCityNames - Request 1]
+16:38:27,093 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:27,101 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:27,101 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:27,714 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:27,716 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:27,720 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:27,720 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:38:27,720 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:38:27,720 INFO  [SoapUITestCaseRunner] running step [TraceTaLine]
+16:38:27,720 INFO  [SoapUITestCaseRunner] running step [LatLonListLine - Request 1]
+16:38:27,720 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:27,734 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:27,734 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:28,428 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:28,428 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:28,436 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:28,436 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:38:28,436 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:38:28,436 INFO  [SoapUITestCaseRunner] running step [PayeTonSquare]
+16:38:28,436 INFO  [SoapUITestCaseRunner] running step [LatLonListSquare - Request 1]
+16:38:28,440 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:28,448 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:28,448 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:29,235 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:29,235 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:29,235 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:29,235 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:38:29,235 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:38:29,235 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 2144ms, status: FINISHED
+16:38:29,239 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+16:38:29,239 INFO  [SoapUITestCaseRunner] running step [Properties]
+16:38:29,239 INFO  [SoapUITestCaseRunner] running step [LatLonListCityNames - Request 1]
+16:38:29,239 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:29,247 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:29,247 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:29,861 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:29,861 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:29,865 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:29,865 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:38:29,865 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:38:29,865 INFO  [SoapUITestCaseRunner] running step [TraceTaLine]
+16:38:29,865 INFO  [SoapUITestCaseRunner] running step [LatLonListLine - Request 1]
+16:38:29,865 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:29,881 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:29,881 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:30,407 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:30,407 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:30,415 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:30,415 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:38:30,415 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:38:30,415 INFO  [SoapUITestCaseRunner] running step [PayeTonSquare]
+16:38:30,415 INFO  [SoapUITestCaseRunner] running step [LatLonListSquare - Request 1]
+16:38:30,415 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:38:30,419 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:38:30,419 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:38:30,932 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:38:30,933 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:38:30,937 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:38:30,937 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:38:30,937 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:38:30,937 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 1696ms, status: FINISHED
+16:38:30,937 INFO  [SoapUITestCaseRunner] Project [ndfdXML] finished with status [FINISHED] in 8572ms
+]]></system-out>
+  </testcase>
+</testsuite>

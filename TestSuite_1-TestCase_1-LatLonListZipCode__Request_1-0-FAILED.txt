@@ -1,0 +1,25 @@
+Status: FAILED
+Time Taken: 115
+Size: 0
+Timestamp: Mon Dec 06 14:10:42 CET 2021
+TestStep: LatLonListZipCode - Request 1
+
+----------------- Messages ------------------------------
+java.lang.Exception: java.lang.NoClassDefFoundError: org/apache/commons/beanutils/PropertyUtils
+
+----------------- Properties ------------------------------
+Endpoint: https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ndf="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ndf:LatLonListZipCode soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <zipCodeList xsi:type="dwml:zipCodeListType" xmlns:dwml="https://graphical.weather.gov/xml/DWMLgen/schema/DWML.xsd">10025</zipCodeList>
+      </ndf:LatLonListZipCode>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+- missing response / garbage collected -
